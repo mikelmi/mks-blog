@@ -1,0 +1,10 @@
+{
+  "name": "Blog",
+  "enabled": true,
+  "providers": [
+    "Modules\\Blog\\Providers\\BlogServiceProvider",
+    "Modules\\Blog\\Providers\\CollectorsProvider"
+  ],
+  "routes": "routes/frontend.php",
+  "admin_routes": "routes/admin.php"
+}
